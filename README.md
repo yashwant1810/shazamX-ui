@@ -1,5 +1,7 @@
 # shazamX-ui — Vite + React Frontend
 
+<img src="public/BlackSimpleMusicStudioLogo.png" alt="shazamX" width="150"/>
+
 ## Description
 
 `shazamX-ui` is a single-page frontend for audio recognition. Users can upload or record a short audio snippet in the browser, which is then matched against the local `shazamX` backend.
