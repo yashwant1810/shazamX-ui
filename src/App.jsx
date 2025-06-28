@@ -52,7 +52,7 @@ export default function App() {
     const formData = new FormData();
     formData.append("file", audioFile);
 
-    const res = await fetch("http://127.0.0.1:8000/match", {
+    const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/match`, {
       method: "POST",
       body: formData,
     });
