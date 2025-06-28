@@ -4,6 +4,8 @@
 
 `shazamX-ui` is a single-page frontend for audio recognition. Users can upload or record a short audio snippet in the browser, which is then matched against the local `shazamX` backend.
 
+*Note - Vercel deployment runs via ngrok hosted online thru local device. It may not be actively online.*
+
 ## Key Techniques
 
 - Mic recording using the [MediaRecorder API](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder)
